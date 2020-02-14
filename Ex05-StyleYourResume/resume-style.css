@@ -1,5 +1,10 @@
 /*Don't need to worry much about grid movement/positioning
-Should use the individual section in here*/
+Element selectors used, still need the group ones. Could do a stripey pattern or something
+Other things needed:
+Class and id selectors too.
+Potentially change text color too
+
+*/
 html {
     background-color: burlywood;
     margin: 100px;
@@ -8,33 +13,19 @@ html {
 
 
 body {
-    /*Add in other types of fonts*/
     margin: 20px;
     background-color: beige;
     font-family: 'Roboto', sans-serif;
 }
 
-/*
-header {
-    display: flex;
-}
-*/
-
 
 h1, h2 {
     font-family: 'Lemonada', cursive;
     text-align: center;
+    font-stretch: extra-expanded;
     background-color: rgba(140, 3, 252, 0.5);
 }
 
-/*
-.logo {
-    display: block;
-    margin left: auto;
-    margin right: auto;
-    width: 50%;
-}
-*/
 
 img {
     border-radius: 75%;
@@ -48,100 +39,29 @@ h3 {
     text-indent: 2em;
 }
 
-/*Education and skills sections need to be 50% of the body space*/
+/*Education and skills sections - 50% of the body space?*/
 
 
+/*
 h4 {
     padding: 0 1.3em;
 }
+*/
 
-p, ul {
+p, ul, h4 {
     padding: 0 2.5em;
 }
 
+h4 {
+    font-style: italic;
+}
 
 ul {
     list-style-type: square;
 }
 
 footer {
-    text-align: center;
-    padding: 50px;
-    margin: 30px;
-}
-
-a:hover {
-    color: black;
-    text-decoration-color: black;
-    border-color: black;
-}
-/*Don't need to worry much about grid movement/positioning
-Should use the individual section in here*/
-html {
-    background-color: burlywood;
-    margin: 100px;
-    padding: 40px;
-}
-
-
-body {
-    /*Add in other types of fonts*/
-    margin: 20px;
-    background-color: beige;
-    font-family: 'Roboto', sans-serif;
-}
-
-/*
-header {
-    display: flex;
-}
-*/
-
-
-h1, h2 {
-    font-family: 'Lemonada', cursive;
-    text-align: center;
-    background-color: rgba(140, 3, 252, 0.5);
-}
-
-/*
-.logo {
-    display: block;
-    margin left: auto;
-    margin right: auto;
-    width: 50%;
-}
-*/
-
-img {
-    border-radius: 75%;
-    /*Centered Image*/
-    display: block;
-    margin-left: auto;
-    margin-right: auto;   
-}
-
-h3 {
-    text-indent: 2em;
-}
-
-/*Education and skills sections need to be 50% of the body space*/
-
-
-h4 {
-    padding: 0 1.3em;
-}
-
-p, ul { 
-    padding: 0 2.5em;
-}
-
-
-ul {
-    list-style-type: square;
-}
-
-footer {
+    font-size: 1.5em;
     text-align: center;
     padding: 50px;
     margin: 30px;
