@@ -4,9 +4,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Nathan Hobbs - SMAD 307 Portfolio</title>
         <meta name="description" content="A showcase of my projects for SMAD 307: Interaction Design 1.">
-        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href= "main.css">
     </head>
     <body>
         
@@ -14,21 +17,36 @@
         <h2>SMAD 307: Interaction Design 1:</h2>
         
         <!--Nav Items -->
-        <ul>
-            <li>Research</li>
-            <li>Prototyping</li>
-            <li>Git Hub Projects</li>
-            <li> <a href = "SMAD203FirstWebsite/index.html">HTML/CSS from SMAD 203</a></li>
-            <li> <a href = "Ex05-StyleYourResume/hobbs-resume.html">Ex-05 Resume Project</a></li>
-            <li> <a href = "Ex 04 - What's Your Story/story.html">Ex-04 What's your story?</a></li>
-            <li>About</li>
-        </ul>
+<!--Fixing file structure, come back to this-->
         
+        <section id="nav">
+        <!--Make a Logo of sorts? At least resize the image--> 
+          
+        <!--     Put video here?       -->
+        <ul>
+            <!--Use max width instead of height; might solve validator issue-->
+            <li><img src="images/NathanLogoSmaller.png" alt = "" height="20%" width="20%"></li>
+            <!--            <li> <a href = "SMAD203FirstWebsite/index.html">HTML/CSS from SMAD 203</a></li>-->
+            <li>Projects</li>
+            <li> <a href = "Ex05-StyleYourResume/hobbs-resume.html">Resume</a></li>
+            <!--Link broken-->
+<!--            <li> <a href = "Ex04-What'sYourStory/story.html">Ex-04 What's your story?</a></li>-->
+            <li> <a href="creative-media.html">Creative Media</a></li>
+            <li> <a href="about.html">About</a></li>
+        </ul>
+        </section>
+        
+        <section id="profile">
         <p><em>Nathan Hobbs studies User Experience Design at James Madison University. He is experienced in the development process, including everything from research and planning to prototyping and content creation.</em></p>
         
-        <img src = "RetouchedProfile.jpg" height="300" width="200" alt="Nathan Hobbs">
+        <!-- attempt to put inline with text? Would make it more interesting. -->
+        <img src = "images/RetouchedProfile.jpg" height="300" width="200" alt="Nathan Hobbs">
+        </section>
         
+        <!--Good place for the synopsis-->
+        
+        <footer>
         <h3>Get in Touch: <br> Email: hobbsna@dukes.jmu.edu <br> Phone: 434-944-1676</h3>
-        
+        </footer>
     </body>
 </html>
