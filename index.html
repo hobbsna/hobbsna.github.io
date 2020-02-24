@@ -12,22 +12,22 @@
         <link rel="stylesheet" href= "main.css">
     </head>
     <body>
-        
+         
         <h1>Nathan Hobbs</h1>
         <h2>SMAD 307: Interaction Design 1:</h2>
         
         <!--Nav Items -->
 <!--Fixing file structure, come back to this-->
         
-        <section id="nav">
-        <!--Make a Logo of sorts? At least resize the image--> 
-          
+        
+        <!--Make a Logo of sorts? --> 
+        <section class="nav"> 
         <!--     Put video here?       -->
         <ul>
             <!--Use max width instead of height; might solve validator issue-->
-            <li><img src="images/NathanLogoSmaller.png" alt = "" height="20%" width="20%"></li>
+<!--            No link here, so it looks smaller. Fix link size in css-->
+            <li style="float: left"><img src="images/NathanLogoSmaller.png" alt = "" height="20%" width="20%"></li>
             <!--            <li> <a href = "SMAD203FirstWebsite/index.html">HTML/CSS from SMAD 203</a></li>-->
-            <li>Projects</li>
             <li> <a href = "Ex05-StyleYourResume/hobbs-resume.html">Resume</a></li>
             <!--Link broken-->
 <!--            <li> <a href = "Ex04-What'sYourStory/story.html">Ex-04 What's your story?</a></li>-->
@@ -36,6 +36,14 @@
         </ul>
         </section>
         
+        
+        <section id = "Message">
+            <p>Design. Ingenuity. Craftsmanship. Your one stop shop for UX Design.</p>    
+        <!--Insert grpahic element here-->
+        
+        </section>
+        
+        
         <section id="profile">
         <p><em>Nathan Hobbs studies User Experience Design at James Madison University. He is experienced in the development process, including everything from research and planning to prototyping and content creation.</em></p>
         
@@ -43,10 +51,21 @@
         <img src = "images/RetouchedProfile.jpg" height="300" width="200" alt="Nathan Hobbs">
         </section>
         
-        <!--Good place for the synopsis-->
+        <!--Finish Writing Synopsis-->
+        <section id = "synopsis">
+        <p>The objective of this site is to provide a demonstration of the techniques covered to date in 
+            SMAD 307: Interaction Design 1, while highlighting principles from previous SMAD courses.
+            The content includes pictures taken with a DSLR camera, an advertisement cretaed in Adobe Illustrator, WordArt creeated in InDesign, 
+            and a video narrative. I have intentionally included HTML elements from every section we have covered so far. The nav contains :hover background coloring
+            and makes use of the float layout feature. The footer utilizes flexbox. Images have image borders; the image in the resume has a border radius.  </p>
+        </section>
+        
         
         <footer>
         <h3>Get in Touch: <br> Email: hobbsna@dukes.jmu.edu <br> Phone: 434-944-1676</h3>
+        <a href="https://smad.jmu.edu" target="_blank">JMU - Media Arts and Design Department</a>
+        <!-- May need to put div here so favorite websites will all line up    -->
+        <p>Favorite Websites: <a href="https://incompetech.com" target="_blank">Incompetech.com</a></p>    
         </footer>
     </body>
 </html>
