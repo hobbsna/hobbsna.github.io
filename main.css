@@ -63,11 +63,14 @@ li {
 }
 /*Currently applied to everything, even the imaages, which it should not be doing*/
 a {
-/* Display inline?   */
     display: block;
     padding: 20px;
     color: #0083e8;
     text-decoration: none;
+}
+
+#listing li {
+    float: none;
 }
 
 /* Changes the link color to #111 (black) on hover */
