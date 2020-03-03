@@ -23,20 +23,22 @@ h1, h2 {
     background-color: rgba(140, 3, 252, 0.5);
 }
 
+/*Not working*/
+h1 a:link a:visited {
+    color: black;
+    text-decoration-color: black;
+}
+
+
 h2 {
     margin-top: 1.1em;
 }
 
 p {
     padding: 20px 10px;
+    margin: auto 20px;
 }
 
-/*
-.nav {
-    display: block;
-    background-color: #222;
-}
-*/
 #message {
     background-image: url(images/bridge.jpg);
     background-size: cover;
@@ -61,7 +63,7 @@ ul {
 li {
     float: right;
 }
-/*Currently applied to everything, even the imaages, which it should not be doing*/
+/*Could be interfering with link color at top of page*/
 a {
     display: block;
     padding: 20px;
@@ -80,7 +82,6 @@ li a:hover {
 
 #listing a {
     display: block;
-/*    float: none;*/
 }
 
 img {
