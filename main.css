@@ -42,7 +42,7 @@ p {
 
 #message p {
     text-align: right;
-    font-kerning: 1.3em;
+    font-kerning: auto;
 }
 
 
@@ -122,7 +122,7 @@ footer a {
     }
 }
 
-@media screen and (min-width: 680px) and (max-width: 1080) {
+@media screen and (min-width: 680px) and (max-width: 1080px) {
     .body_copy {
         padding: 20px 20px;
     }
