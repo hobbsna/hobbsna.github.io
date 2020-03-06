@@ -10,6 +10,16 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
         <link rel="stylesheet" href= "main.css">
+        
+         <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159831219-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-159831219-1');
+        </script>
     </head>
     <body>
         <h1><a href="index.html">Nathan Hobbs</a></h1>
@@ -17,7 +27,6 @@
         
         <section id="nav">
         <ul>
-            <!--Solved validator issue. Not a great way to do it, though.-->
             <li style="float: left"><a href= "index.html"><img src="images/NathanLogoSmaller.png" alt ="" style="width: 20%; height: 20%"></a></li>
             <li> <a href = "hobbs-resume.html">Resume</a></li>
             <li> <a href="creative-media.html">Creative Media</a></li>
@@ -27,11 +36,12 @@
         
 <!--        Change the name of this-->
         <section id="profile">
-        <p><em>A sampling of the various kinds of projects Nathan has worked on. Samples include <a href="#continuity" style="display: inline">continutiy</a> editing with iMovie, 
+        <p><em>A sampling of the various kinds of projects Nathan has worked on. Samples include <a href="#continuity" style="display: inline">continuity</a> editing with iMovie, 
             <a href = "#typography" style="display: inline">typography</a> balancing in Adobe InDesign, <a href="#vector" style="display: inline">Vector</a> creation in Adobe Illustrator, and DSLR <a href="#photography" style="display: inline">photography</a></em></p>
             <figure id = "continuity">
                 <video width = "500" height = "300" controls>
-                    <source src="images/hobbs_continuity.mp4">
+                    <source src="images/hobbs_continuity_compressed.mp4">
+                    <source src="images/hobbs_continuity_compressedAlt.mp4">
                     Your browser does not support the video tag.
                 </video>       
                 <figcaption>A continuity editing excercise from SMAD 202: Audio/Visual Storytelling</figcaption>
@@ -40,22 +50,22 @@
         
         <figure id = "typography">
             <img src="images/WordArtVersion1.png" alt="Fruit of the Spirit WordArt">
-            <figcaption>The Fruit of the Spirit, in WordArt form.</figcaption>
+            <figcaption class="caption">The Fruit of the Spirit, in WordArt form.</figcaption>
         </figure>
         
         <figure id = "vector">
             <img src="images/BreakfastBunch2x.jpg" alt="Breakfast Bunch Placeholder">
-            <figcaption>A poster for a fictional restraunt.</figcaption>
+            <figcaption class="caption">A poster for a fictional restraunt.</figcaption>
         </figure>
         
         <figure id = "photography">
             <img src="images/Tough.jpg" alt="InterVarsity Small Group">
-            <figcaption>Several of the members of the small group "Oozma Kappa" of InterVarsity</figcaption>
+            <figcaption class="caption">Several of the members of the small group "Oozma Kappa" of InterVarsity</figcaption>
         </figure>
         
         <figure>
             <img src="images/Faces.jpg" alt="Smiling Faces">
-            <figcaption>Left to Right: Alex Clippinger, Zach Kennedy, Isaac Prock, Tyler Mundy, and Tim Webel</figcaption>
+            <figcaption class="caption">Left to Right: Alex Clippinger, Zach Kennedy, Isaac Prock, Tyler Mundy, and Tim Webel</figcaption>
         </figure>
         
         <footer>

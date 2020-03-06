@@ -87,6 +87,10 @@ li a:hover {
     display: block;
 }
 
+.caption {
+    text-align: center;
+}
+
 img {
     background: transparent;
     border: 10px solid rgba(0, 0, 0, 0.12);
